@@ -34,7 +34,7 @@ jobs:
     defaults:
       run:
         shell: bash
-        'node-version': '18.x'   # Specify the desired Node.js version here
+        node: '18.x'   # Specify the desired Node.js version here
     steps:
       - name: Check out source code
         uses: actions/checkout@v3
