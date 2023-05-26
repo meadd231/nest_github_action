@@ -31,10 +31,6 @@ jobs:
     needs: test
     name: Build
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
-        node: '18.x'   # Specify the desired Node.js version here
     steps:
       - name: Check out source code
         uses: actions/checkout@v3
